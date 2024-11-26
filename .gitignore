@@ -1,45 +1,22 @@
-# Node.js
 */node_modules/
-
-# Logs
-logs/*.log
-npm-debug.log*
-
-# Dependency directories
-pids/
-*.pid
-*.seed
-*.pid.lock
-
-# Optional npm cache directory
-.npm
-
-# Optional eslint cache
-.eslintcache
-
-# Optional REPL history
-.node_repl_history
-
-# Environment variables
-.env*
-
-# Next.js
-.next/
-
-# Compiled binary addons (e.g., Webpack)
-build/Release
-
-# Grunt intermediate storage (if using Grunt)
-.grunt
-
-# node-waf configuration (if using Waf)
-.lock-wscript
-
-# Coverage directory used by tools like Istanbul
-coverage/
-
-# nyc test coverage
-.nyc_output/
-
-# Optional REPL history (ReScript)
-.repl_history
+*/package-lock.json
+*/npm-shrinkwrap.json
+*.log
+*.gz
+*/.next/
+*/dist/
+*/public/
+*/coverage/
+*/.nyc_output/
+*/benchmarks/graphs/
+*/.eslintcache/
+*/.stylelintcache/
+*/.tsbuildinfo
+*/.node_repl_history
+*/.env
+*/.env.development.local
+*/.env.test.local
+*/.env.production.local
+*/.env.local
+*/.yarn-integrity
+*/.pnp.*
