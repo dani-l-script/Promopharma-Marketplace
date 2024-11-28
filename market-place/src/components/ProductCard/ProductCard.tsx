@@ -1,4 +1,4 @@
-import { useCart } from "@/context/CartContext";
+// import { useCart } from "@/context/CartContext";
 
 interface ProductCardProps {
   id: number;
@@ -10,14 +10,14 @@ interface ProductCardProps {
 }
 
 export const ProductCard: React.FC<ProductCardProps> = ({
-  id,
+ // id,
   title,
   image,
   description,
   price,
   discount,
 }) => {
-  const { addToCart } = useCart();
+  // const { addToCart } = useCart();
 
   return (
     <div className="p-4 border rounded shadow-md">
@@ -29,17 +29,17 @@ export const ProductCard: React.FC<ProductCardProps> = ({
         <span className="line-through text-gray-500">${price}</span>
       </p>
       <button
-        onClick={() =>
-          addToCart({
-            id,
-            title,
-            image,
-            description,
-            price,
-            discount,
-            quantity: 0,
-          })
-        }
+        // onClick={() =>
+        //   addToCart({
+        //     id,
+        //     title,
+        //     image,
+        //     description,
+        //     price,
+        //     discount,
+        //     quantity: 0,
+        //   })
+        // }
         className="mt-2 px-4 py-2 bg-blue-500 text-white rounded"
       >
         Add to Cart
